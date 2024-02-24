@@ -12,7 +12,7 @@ jobs:
     - name: Set up MATLAB
       uses: matlab-actions/setup-matlab@v2
       with:
-        products: Simulink, Simulink_Compiler, Simulink_Test, Simulink_Support_Package_for_Arduino_Hardware
+        products: Simulink Simulink_Compiler Simulink_Test Simulink_Support_Package_for_Arduino_Hardware
     # Build the Simulink model for Arduino
     - name: Build Simulink Model
       uses: matlab-actions/run-build@v2

@@ -32,9 +32,8 @@ jobs:
           cache: false
 
       - name: List AVR-GCC Directory Contents
-        run: ls -la /home/runner/Documents/MATLAB/SupportPackages/R2023b/3P.instrset/arduinoide.instrset/arduino-1.8.19/hardware/tools/avr/bin/
-
-
+        run: ls -la /home/runner/Documents/MATLAB/SupportPackages/R2023b
+        
       # Runs a set of commands using the runners shell
       # - name: Run all tests
       #  uses: matlab-actions/run-tests@v2
